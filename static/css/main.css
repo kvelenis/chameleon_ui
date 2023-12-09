@@ -1,0 +1,159 @@
+.ch_main-div {
+    width: 100%; 
+    margin: 0 auto; 
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px; 
+}
+
+.ch_insert-melody-div {
+    
+    background-color: #fff; 
+    padding: 10px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.ch_insert-chords-div {
+    
+    background-color: #fff; 
+    padding: 10px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.ch_reply-div {
+    background-color: #fff; 
+    padding: 20px; 
+    color: #131313; 
+    flex: 0; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.instructions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.arrayrender {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
+
+.shortcut {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-family: monospace;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.success {
+    border: 2px dashed green;
+}
+
+.error {
+    border: 2px dashed red;
+}
+
+.dragleave {
+    border: 2px dashed #131313;
+}
+
+.dragover {
+    border: 2px dashed #ccc;
+}
+  
+.noteWeight {
+    fill: #bbbbbb; /* Default fill color */
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    transform-box: fill-box;
+  }
+
+.noteWeight:hover {
+    fill: #808080; /* Fill color on hover */
+    -webkit-transform: scale(2);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition:.3s;
+}
+
+.noteWeight_clicked {
+    fill: #000; /* Fill color on hover */
+    -webkit-transform: scale(2);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+}
+
+.noteWeight_clicked:hover {
+    fill: #000;
+}
+
+.chordPosition {
+    fill: #bbbbbb; /* Default fill color */
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    transform-box: fill-box;
+  }
+
+.chordPosition:hover {
+    fill: #808080; /* Fill color on hover */
+    -webkit-transform: scale(2);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition:.3s;
+}
+
+.chordPosition_clicked {
+    fill: #000; /* Fill color on hover */
+    -webkit-transform: scale(2);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition:.3s;
+}
+
+.chordPosition_clicked:hover {
+    fill: #000; /* Fill color on hover */
+}
+

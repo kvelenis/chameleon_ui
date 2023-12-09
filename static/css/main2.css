@@ -1,0 +1,102 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #3498db, #8e44ad);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set a default font */
+    color: #fff; /* Set a default text color */
+}
+
+.ch_main-div {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.ch_insert-melody-div {
+    margin-bottom: 20px;
+}
+
+.ch_insert-melody-header {
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.ch_insert-melody-instructions-p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ch_browse-file-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.ch_browse-file-button:hover {
+    background-color: #2980b9;
+}
+
+
+.ch_insert-chords-div {
+    margin-bottom: 20px;
+}
+
+.ch_insert-chords-header {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ch_insert-chords-instructions-p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#osmdContainer {
+
+}
+
+.ch_test-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.ch_test-button:hover {
+    background-color: #3498db;
+}
+
+
+.ch_reply-div {
+    text-align: center;
+}
+
+.ch_reply-main-header {
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.ch_reply-p {
+    color: #555;
+    font-size: 16px;
+}
